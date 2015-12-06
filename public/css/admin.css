@@ -1,0 +1,114 @@
+@charset "utf-8";
+@import url('normalize.css');
+/* Default Style */
+@-ms-viewport {
+	width: device-width;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		    box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	        font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+html.lt-ie9 {
+	max-width: 768px;
+	margin: 0 auto;
+	position: relative;
+}
+
+body {
+	background: white;
+	padding-top: 50px;
+	padding-left: 200px;
+	font-size: 16px;
+}
+
+a {
+	color: #a9aeae;
+	text-decoration: none;
+}
+	a:hover, a:focus {
+		text-decoration: none;
+		color: #000;
+	}
+/* End of Defualt Style */
+
+/* Header Style */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #333;
+	height: 50px;
+	width: 100%;
+	padding: 0px 10px;
+}
+header .logo {
+	color: #f3f3f3;
+	font-size: 20px;
+	line-height: 50px;
+}
+/* End of Header Style */
+
+/* Sidebar Style */
+aside {
+	background: #444;
+	position: fixed;
+	left: 0;
+	top: 50px;
+	height: 100%;
+	width: 200px;
+}
+aside nav {
+	margin-top: 20px; 
+}
+aside nav ul li a {
+	display: block;
+	margin: 0px;
+	padding: 10px 20px;
+}
+aside nav ul li a:hover {
+	background: blue;
+}
+/* End of Sidebar Style */
+
+
+/* Main Section Style */
+main {
+	width: 100%;
+	padding: 20px;
+}
+
+/* CSS Document */
+/*#html,body{margin:0px;padding:0px;}
+#main{width:100%; height:auto; margin:auto;}
+
+#header {width:100%;height:45px;background-color:#333; margin-left:10px;}
+#left_header{width:200px; height:45px; float:left;}
+#left_header h4{ margin:2px; padding:2px;}
+#left_header a{text-decoration:none;text-align:left;color:#0F3;font-size:24px; margin-left:25px;}
+
+#content{width:100%px;height:100%; margin:10px;}
+#left_content{width:17%;height:100%; background-color:#333;position:fixed; float:left;}
+
+#menu{width:17%;height:500px;float:left;color:white; line-height:40px;}
+#menu ul{margin:20px;padding:20px;}
+
+#menu ul li{list-style:none;display:block;float:left; width:120px; height:45px; text-align:center;}
+#menu ul li a{text-decoration:none;text-align:center;color:#FFF;font-size:18px;}
+
+#menu ul li:hover{background:#0F0; width:120px;}
+#menu ul li:hover a{color:red;}
+
+#right_content{ width:83%; height:auto; float:right; margin:-10px;}
+#right_content h1{text-align:center; color:red;}*/

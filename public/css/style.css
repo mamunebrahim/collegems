@@ -1,0 +1,238 @@
+@charset "utf-8";
+@import url('normalize.css');
+
+/* Default Style */
+
+@-ms-viewport {
+    width: device-width;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+html.lt-ie9 {
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+}
+
+body {
+    background: white;
+    font-size: 16px;
+}
+
+a {
+    color: #a9aeae;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 1090px;
+    margin: 0 auto;
+}
+/* End of Defualt Style */
+
+
+/* Header Style */
+header #titlebar {
+    background: #1e5225;
+    height: 150px;
+    width: 100%;
+}
+
+header #left_header {
+    width: 100px;
+    height: 100px;
+    float: left
+}
+
+header #left_header img {
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-top: 30px
+}
+
+header #middle_header {
+    width: 850px;
+    float: left;
+    height: 100px;
+}
+
+header #middle_header h1 {
+    color: #CCC;
+    font-family: "Courier New", Courier, monospace;
+    margin: 25px 0px 0px 50px;
+}
+
+header #middle_header h1 {
+    color: #FFF;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px
+}
+header #middle_header h4 {
+    color: #CCC;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px
+}
+
+
+
+
+header #right_header {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+}
+
+header #right_header img {
+    height: 70px;
+    width: 70px;
+    float: right;
+    margin-top: 30px;
+}
+
+header #breaking {
+    height: 40px;
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px
+}
+
+header #breaking p {
+    margin: 10px 0px 0px 20px;
+    padding: 0px;
+    float: left;
+    width: 130px;
+    color: #93F;
+}
+
+header #breaking marquee {
+    width: 880px;
+    margin-top: 10px;
+    color: #F00;
+}
+
+header nav {
+    height: 45px;
+    width: 100%;
+    background: #5bb53b;
+    float: left;
+}
+
+header nav ul {
+    margin: 0px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: block;
+    float: left;
+    padding: 0px 20px;
+    height: 45px;
+    padding-top: 12px;
+    text-align: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+}
+
+header nav ul li:hover {
+    background: #FFF;
+    //width: 80px;
+}
+
+header nav ul li:hover a {
+    color: red;
+}
+/* End of Header Style */
+
+/* Aside Styles */
+aside {
+	float: right;
+}
+#notice{ height:350px; width:280px; background:#EEE; margin:10px 0px 0px 0px;border-radius:5px}
+#notice_first{ background:#5bb53b; height:40px; width:250px; margin:0px auto; border-radius:4px}
+#notice h1{ color:#FFF; margin:0px; padding:0px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-size:22px; padding-top:5px}
+#notice ul{ margin:40px 0px 0px 15px; padding:0px}
+#notice ul li{ list-style:disc; margin:10px 0px}
+#notice ul li a{ font-family:Tahoma, Geneva, sans-serif; font-size:16px; text-align:justify; color:#AD1D32; text-decoration:none}
+#notice ul li a:hover{ color:#009; text-decoration:underline}
+
+#gallery{height:350px; width:280px; background:#EEE; margin:10px 0px 0px 0px; border-radius:5px;}
+#gallery_first{ background:#5bb53b;; height:40px; width:250px; margin:0px auto; border-radius:4px}
+#gallery_first h1{ color:#FFF; margin:0px; padding:0px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-size:22px; padding-top:5px;}
+
+#important{height:200px; width:280px; background:#EEE; margin:10px 0px 0px 0px;border-radius:5px;}
+#important_first{ background:#5bb53b;; height:40px; width:250px; margin:0px auto; border-radius:4px}
+#important h1{ color:#FFF; margin:0px; padding:0px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-size:22px; padding-top:5px;}
+#important ul{ margin:10px 0px 0px 20px; padding:0px}
+#important ul li{ list-style:disc; margin:10px 0px}
+#important ul li a{text-align:justify;text-decoration:none;}
+#important ul li a:hover{color: red; text-decoration:underline}
+/* End of Aside Styles */
+
+/* Footer Styles */
+footer{ height:70px; width:1090px; float:left; background:#5bb53b; margin-top:10px;}
+footer #footer_left{ height:auto; width:600px; margin-top:28px;float:left}
+footer #footer_left p{ font-family:"Arial Black", Gadget, sans-serif; font-size:14px; color:#FFF; float:right;}
+footer #footer_left a{color:red; text-decoration:none;}
+footer #footer_left a:hover{ text-decoration:underline;}
+footer #footer_right{ height:50px; width:200px; float:right; margin:20px 50px 0px 0px; padding:0px}
+footer #footer_right img{ height:40px; width:40px; margin-left:10px; border-radius:5px}*/
+/* End of Footer Styles */
+
+
+/* Home Pages Styles */
+#slide{ height:365px; width:100%;}
+#slide img {width: 100%; height: 365px;border:3px solid #333; margin-top: 20px; }
+
+#welcome{ height:350px; width:100%; background:#EEE; margin:10px 10px 0px 0px; border-radius:5px}
+#welcome_first{ background:#5bb53b;; height:40px; width:00px;}
+#welcome h1{ color:#5bb53b;; margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:24px; text-align:center; margin-top:10px}
+#welcome p{ margin:15px; font-family:Georgia, "Times New Roman", Times, serif; text-align:justify; line-height:25px}
+
+#principle{ height:350px; width:100%; background:#EEE; margin:10px 10px 0px 0px; border-radius:5px}
+#principle_message{ background:#5bb53b;; height:40px; width:00px;}
+#principle h1{color:#5bb53b; margin:0px; padding:0px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-size:22px; padding-top:5px;}
+#principle p{ margin:15px; font-family:Georgia, "Times New Roman", Times, serif; text-align:justify; line-height:25px;}
+
+#content{height:200px; width:100%;}
+#contact{height:200px; width:49%; float:left; background:#EEE; margin:10px 15px 0px 0px;border-radius:5px;}
+#contact_first{ background:#5bb53b;; height:40px; width:250px; margin:0px auto; border-radius:4px}
+#contact h1{ color:#FFF; margin:0px; padding:0px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-size:22px; padding-top:5px;}
+#contact p {color: #333; font-size: 16px;}
+
+#timing{height:200px; width:49%; float:left; background:#EEE; margin:10px 0px 0px 0px;border-radius:5px;}
+#timing_first{ background:#5bb53b;; height:40px; width:250px; margin:0px auto; border-radius:4px}
+#timing h1{ color:#FFF; margin:0px; padding:0px; font-family:Tahoma, Geneva, sans-serif; text-align:center; font-size:22px; padding-top:5px;}
+/* End of Home Pages Styles */

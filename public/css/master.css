@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{ margin:10px ; padding:0px}
+#main{ height:auto; width:1090px; margin:auto}
+
+#header{ height:150px; width:1090px; background:#1e5225;}
+#left_header{ width:100px; height:100px; float:left}
+#left_header img{ height:70px; width:70px; float:right;margin-top:30px}
+
+#middle_header{ width:850px; float:left; height:100px;}
+#middle_header h1{ color:#CCC; font-family:"Courier New", Courier, monospace; margin:25px 0px 0px 50px;}
+#middle_header h1{ color:#FFF; font-family:Verdana, Geneva, sans-serif; font-size:35px; margin:0px; padding:0px; margin-left:10px}
+
+#right_header{ width:100px; height:100px; float:right; margin-right:20px;}
+#right_header img{ height:70px; width:70px; float:right;margin-top:30px;}
+
+#breaking{ height:40px; width:1090px; float:left; margin:0px; padding:0px}
+#breaking p{ margin:10px 0px 0px 20px; padding:0px;  float:left; width:130px; color:#93F;}
+#breaking marquee{ width:880px; margin-top:10px; color:#F00;}
+
+#menu{ height:45px; width:1090px; background:#5bb53b; float:left;}
+#menu ul{ margin:0px;} 
+#menu ul li{ list-style:none; display:block; float:left; margin-right:50px; height:45px; width:60px; padding-top:12px;text-align:center;}
+#menu ul li a{ text-decoration:none; text-align:center; color:#FFF; font-size:16px;}
+#menu ul li:hover{ background:#FFF; width:80px;}
+#menu ul li:hover a{ color:red;}
+
+#footer{ height:80px; width:1090px; float:left; background:#5bb53b; margin-top:10px;}
+#footer_left{ height:auto; width:600px; margin-top:20px;float:left}
+#footer_left p{ font-family:"Arial Black", Gadget, sans-serif; font-size:14px; color:#FFF; float:right;}
+#footer_left a{color:red; text-decoration:none;}
+#footer_left a:hover{ text-decoration:underline;}
+#footer_right{ height:50px; width:200px; float:right; margin:20px 50px 0px 0px; padding:0px}
+#footer_right img{ height:50px; width:50px; margin-left:10px; border-radius:5px;}
